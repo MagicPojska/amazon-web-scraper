@@ -1,0 +1,27 @@
+{
+  "name": "amazon-web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicPojska/amazon-web-scraper.git"
+  },
+  "keywords": [],
+  "author": "www.safetpojskic.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicPojska/amazon-web-scraper/issues"
+  },
+  "homepage": "https://github.com/MagicPojska/amazon-web-scraper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
